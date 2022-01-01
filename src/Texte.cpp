@@ -46,7 +46,7 @@ void Texte::chercheText() {
         case 5 : texte = "Sealed portal cave.**No Entry."; break;
         case 6 : texte = "Faron Temple**Save the trees, eat beaver!!!"; break;
 #ifdef DINGUX
-        case 7 : texte = "You find Pegasus Boots!!! *hold A to run."; break;
+        case 7 : texte = "You find Pegasus Boots!!! *hold B to run."; break;
 #else
         case 7 : texte = "You find Pegasus Boots!!! *Shift hold or Caps lock to run."; break;
 #endif
@@ -203,7 +203,7 @@ void Texte::chercheText() {
         case 129 : texte = "You cannot go in this village with this appearance !!!"; break;
         case 130 : texte = "Link, it's Pit. I am talking with you by telepathy. You must under no circumstances transform yourself in a village!*I will teleport you outside."; break;
 #ifdef DINGUX
-        case 131 : texte = "You find a sword!!!**Press B to attack or hold B to charge a spin attack."; break;
+        case 131 : texte = "You find a sword!!!**Press A to attack or hold A to charge a spin attack."; break;
 #else
         case 131 : texte = "You find a sword!!!**Press Z (or W) to attack or hold Z (or W) to charg a spin attack."; break;
 #endif
@@ -244,7 +244,7 @@ void Texte::chercheText() {
         case 146 : texte = "You find the Bomb Bag!!!*And it's full!!!*Press START to set them up, and Y to put one down."; break;
         case 147 : texte = "You find the Gloves!!!**Now you can lift light stones by pressing A."; break;
 #else
-        case 146 : texte = "You find the Bomb Bag!!!*And it's full!!!*Press ENTER to set them up, and X to put one down."; break;
+        case 146 : texte = "You find the Bomb Bag!!!*And it's full!!!*Press B to set them up, and X to put one down."; break;
         case 147 : texte = "You find the Gloves!!!**Now you can lift light stones by pressing C."; break;
 #endif
         case 148 : 
@@ -314,12 +314,12 @@ void Texte::chercheText() {
         case 194 : texte = "You find the Great Fairy Bow!!!**Now you can shoot arrows with an incredible power!!!"; break;
         case 195 : texte = "You find the Triforce !!!"; break;
 #ifdef DINGUX        
-        case 197 : texte = "Tutorial : Press B to talk, read or open a chest, and START to pass the texts on the screen on."; break;
+        case 197 : texte = "Tutorial : Press A to talk, read or open a chest, and START to pass the texts on the screen on."; break;
 #else
         case 197 : texte = "Tutorial : Press SPACE to talk, read or open a chest, and ENTER to pass the texts on the screen on."; break;
 #endif
 #ifdef DINGUX
-        case 198 : texte = "Press A to lift a light object."; break;
+        case 198 : texte = "Press B to lift a light object."; break;
 #else
         case 198 : texte = "Press C to lift a light object."; break;
 #endif
@@ -378,7 +378,7 @@ void Texte::chercheText() {
         case 237 : texte = "I raise the maximum amount of bombs you can carry on, thanks to who???"; break;
         case 238 : texte = "I raise the maximum amount of arrows you can carry on, thanks to who???"; break;
         case 239 : texte = "I have enough rupees, disappear!"; break;
-        case 240 : texte = "You find the Golden Gloves!!!**Now you can lift heavy stones pressing C."; break;
+        case 240 : texte = "You find the Golden Gloves!!!**Now you can lift heavy stones pressing B."; break;
         case 241 : texte = "I let go through only maleficious creatures."; 
             if (gpJeu->getJoueur()->getOni()) idsuiv=243; break;
         case 242 : texte = "I let go through only beneficent creatures."; 
