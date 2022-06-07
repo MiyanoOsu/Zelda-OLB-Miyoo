@@ -1,4 +1,4 @@
-# Zelda-OLB-Miyoo
+# Zelda_Oni_Link_Begins
 The Legend of Zelda - Oni Link Begins (port miyoo)
 
 For powkiddy Q90/V90
